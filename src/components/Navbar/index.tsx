@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
 
-import { Container, StyledBurger } from './styles';
+import { 
+    Container, 
+    StyledBurger,
+    Ul,
+} from './styles';
 const Navbar: React.FC = () => {
   function scrollToTop() {
       scroll.scrollToTop();
@@ -10,12 +14,13 @@ const Navbar: React.FC = () => {
     
     return (
         <Container open={open}>
+            {/* <Nav> */}
             <div className="content">
                 <div className="logo">
                     <h1 onClick={scrollToTop}>Logo</h1>
                 </div>
                 <nav className="content-menu">
-                    <ul className="menu">
+                    <Ul open={open}>
                         <li>
                             <Link
                             activeClass="active"
@@ -75,7 +80,7 @@ const Navbar: React.FC = () => {
                             Contato
                             </Link>
                         </li>
-                    </ul>
+                    </Ul>
                 </nav>
 
                 <StyledBurger open={open} onClick={() => setOpen(!open)}>
@@ -84,6 +89,7 @@ const Navbar: React.FC = () => {
                     <div />
                 </StyledBurger>
             </div>
+            {/* </Nav> */}
         </Container>
     );
 }

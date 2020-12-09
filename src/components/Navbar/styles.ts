@@ -1,94 +1,92 @@
 import styled from 'styled-components';
 
-interface props {
+interface Props {
     open: boolean;
 }
 
-export const Container = styled.div<props>`
+export const Container = styled.div<Props>`
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 4px #000;
+
+  .content {
     width: 100%;
+    height: 55px;
+    padding: 0 20px;
     display: flex;
-    justify-content: center;
-
-    .content {
-        position: fixed;
-        width: 100%;
-        height: 80px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        box-shadow: 2px 1px 5px #000;
-
-        h1 {
-            font-family: Roboto;
-        }
-    }
-
+    justify-content: space-around;
+    align-items: center;
 
     .content-menu {
-        padding: 10px;
-    }
-
-    .content-menu ul {
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
 
-    .content-menu ul li {
-        padding: 5px;
-        margin-left: 10px;
-        text-transform: uppercase;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        color: #444;
-        transition: 0.2s;
-        font-size: 0.9em;
-
-        &:hover {
-            cursor: pointer;
-            color: #000;
-        }
+    .menu {
+        margin: 0 10px 0 0;
     }
 
-    @media (max-width: 780px) {
-        .content {
-            display: flex;
-            flex-direction: column;
-
-            height: 100px;
-        }
+    .logo {
+        padding: 15px 0;
+        font-family: Roboto, sans-serif;
+        font-weight: 400px;
     }
+  }
 
-    
-    @media (max-width: 600px) {
-        .content .content-menu ul {
-            flex-flow: column nowrap;
-            background-color: #0D2538;
-            position: fixed;
-            top: 0;
-            right: 0;
-            transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
-            height: 100vh;
-            width: 300px;
-            padding-top: 3.5rem;
-            transition: transform 0.3s ease-in-out;
-
-            li {
-                text-align: center;
-                color: #fff;
-
-                &:hover {
-                    color: #ccc;
-                }
-            }
-    }
-}
-
-    /* Media querys */
-    
 `;
 
-export const StyledBurger = styled.div<props>`
+export const Ul = styled.ul<Props>`
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+
+  li {
+    padding: 18px 20px;
+    font-family: Roboto, sans-serif;
+    font-weight: 300px;
+    text-transform: uppercase;
+    font-size: 1em;
+    transition: 0.2s;
+    color: #000;
+
+    &:hover {
+        cursor:pointer;
+        color: #ccc;
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-flow: column nowrap;
+    background-color: #0D2538;
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
+    height: 100vh;
+    width: 300px;
+    padding-top: 3.5rem;
+    transition: transform 0.3s ease-in-out;
+
+    li {
+      text-align: center;
+      font-family: Roboto, sans-serif;
+      font-weight: 300px;
+      color: #fff;
+
+      &:hover {
+          cursor:pointer;
+          color: #ccc;
+      }
+    }
+  }
+`;
+
+
+export const StyledBurger = styled.div<Props>`
   position: fixed;
   top: 15px;
   right: 20px;
@@ -99,17 +97,16 @@ export const StyledBurger = styled.div<props>`
       margin-bottom: 6px;
   } 
 
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     display: flex;
     justify-content: center;
     flex-flow: column nowrap;
   }
 
   div {
-    border: 1px solid red;
     width: 2rem;
     height: 0.25rem;
-    background-color: ${({ open }) => open ? '#ccc' : '#333'};
+    background-color: ${({ open }) => open ? '#f00' : '#333'};
     border-radius: 10px;
     transform-origin: 1px;
     transition: all 0.3s linear;
