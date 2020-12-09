@@ -42,8 +42,6 @@ export const ContainerBg = styled.div`
 
     @media (max-width: 600px) {
         section {
-            border: 1px solid red;
-            /* width: 100%; */
             display: flex;
             justify-content: center;
         }
@@ -53,7 +51,6 @@ export const ContainerBg = styled.div`
         section .titulo {
             width: 400px;
             padding: 0 0 0 20px;
-            border: 1px solid red;
         }
         section h1 {
             font-size: 4em;
