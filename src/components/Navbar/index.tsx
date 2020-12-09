@@ -18,7 +18,10 @@ const Navbar: React.FC = () => {
             {/* <Nav> */}
             <div className="content">
                 <div className="logo">
-                    <FaBalanceScale size={30} color="#0D2538" />
+                    <div className="icon">
+                        <FaBalanceScale size={30} color="#0D2538" />
+                    </div>
+                        
                     <h1 onClick={scrollToTop}>
                         Bestana Sociedade de Advogados
                     </h1>

@@ -19,6 +19,13 @@ export const Container = styled.div<Props>`
     justify-content: space-around;
     align-items: center;
 
+    @media (max-width: 600px) {
+        height: 60px;
+        .logo h1 {
+            width: 200px;
+        }
+    }
+
     .content-menu {
         display: flex;
         justify-content: space-around;
