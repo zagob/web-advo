@@ -9,7 +9,11 @@ export const Container = styled.div<Props>`
   width: 100%;
   justify-content: center;
   align-items: center;
-  box-shadow: 2px 2px 4px #000;
+  box-shadow: 4px 4px 8px #000;
+  z-index: 1000;
+  position: fixed;
+  background: #fff;
+  
 
   .content {
     width: 100%;
@@ -68,7 +72,7 @@ export const Ul = styled.ul<Props>`
 
     &:hover {
         cursor:pointer;
-        color: #ccc;
+        color: #3C3F3F;
     }
   }
 
