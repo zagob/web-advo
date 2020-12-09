@@ -30,9 +30,15 @@ export const Container = styled.div<Props>`
     }
 
     .logo {
-        padding: 15px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo h1 {
+        padding: 15px 0 15px 10px;
         font-family: Roboto, sans-serif;
         font-weight: 400px;
+        font-size: 1.2em;
     }
   }
 
@@ -49,7 +55,7 @@ export const Ul = styled.ul<Props>`
     font-family: Roboto, sans-serif;
     font-weight: 300px;
     text-transform: uppercase;
-    font-size: 1em;
+    font-size: 0.9em;
     transition: 0.2s;
     color: #000;
 
@@ -59,7 +65,7 @@ export const Ul = styled.ul<Props>`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     flex-flow: column nowrap;
     background-color: #0D2538;
     position: fixed;
@@ -97,7 +103,7 @@ export const StyledBurger = styled.div<Props>`
       margin-bottom: 6px;
   } 
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     display: flex;
     justify-content: center;
     flex-flow: column nowrap;

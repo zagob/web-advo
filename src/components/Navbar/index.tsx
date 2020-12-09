@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
+import { FaBalanceScale } from 'react-icons/fa';
 
 import { 
     Container, 
@@ -17,7 +18,10 @@ const Navbar: React.FC = () => {
             {/* <Nav> */}
             <div className="content">
                 <div className="logo">
-                    <h1 onClick={scrollToTop}>Logo</h1>
+                    <FaBalanceScale size={30} color="#0D2538" />
+                    <h1 onClick={scrollToTop}>
+                        Bestana Sociedade de Advogados
+                    </h1>
                 </div>
                 <nav className="content-menu">
                     <Ul open={open}>
