@@ -75,7 +75,6 @@ export const Container = styled.div<props>`
 
             li {
                 text-align: center;
-                /* border: 1px solid red; */
                 color: #fff;
 
                 &:hover {

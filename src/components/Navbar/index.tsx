@@ -1,13 +1,11 @@
-import React, { Component, useState } from 'react';
+import React, { useState } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 import { Container, StyledBurger } from './styles';
 const Navbar: React.FC = () => {
-// export default class Navbar extends Component {
   function scrollToTop() {
       scroll.scrollToTop();
   }
-//   render() {
     const [open, setOpen] = useState(false);
     
     return (
@@ -88,7 +86,6 @@ const Navbar: React.FC = () => {
             </div>
         </Container>
     );
-//   }
 }
 
 export default Navbar;
