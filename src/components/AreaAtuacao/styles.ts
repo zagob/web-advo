@@ -5,6 +5,11 @@ export const Container = styled.div`
     justify-content: space-around;
     align-items: center;
     height: 700px;
+    background-color: #0D2538;
+
+    * {
+        color: #fff;
+    }
 
     @media (max-width: 600px) {
         height: 1300px;

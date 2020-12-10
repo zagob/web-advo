@@ -4,9 +4,13 @@ import { AiOutlineMail } from 'react-icons/ai';
 
 import { Container } from './styles';
 
-const Contato: React.FC = () => {
+interface IProps {
+    id: string;
+}
+
+const Contato: React.FC<IProps> = ({ id }) => {
   return (
-      <Container>
+      <Container id={id}>
           <div className="container">
             <div className="row">
                 <div>
@@ -36,7 +40,7 @@ const Contato: React.FC = () => {
                         <h3>Nosso Endereço</h3>
 
                         <p><li ><FaWhatsapp size={25} color="green" /></li>(14) 99713.0042</p>
-                        <p><li ><AiOutlineMail size={25} color="#ccc" /></li> bestana@adv.oabsp.org.br</p>
+                        <p><li ><AiOutlineMail size={25} color="#000" /></li> bestana@adv.oabsp.org.br</p>
                         <p><li ><FaLocationArrow size={25} color="#000" /></li> Rua Pereira de Rezende, 435 - Barra Bonita - SP</p>
                     </address>
                     <ul className="social">

@@ -58,7 +58,6 @@ export const Container = styled.section`
             }
 
             textarea {
-                /* width: 400px; */
                 background-color: #0D2538;
                 color: #fff;
                 height: 50px;
