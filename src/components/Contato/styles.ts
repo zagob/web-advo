@@ -23,6 +23,7 @@ export const Container = styled.section`
         h2 {
             font-size: 2.2em;
             font-weight: 600;
+            color: #fff;
 
             @media (max-width: 600px) {
                 font-size: 2.2em;
@@ -73,6 +74,7 @@ export const Container = styled.section`
                 height: 40px;
                 margin: 10px 0;
                 border: none;
+                background: orange;
 
                 &:hover {
                     opacity: 60%;
