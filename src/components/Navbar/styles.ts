@@ -15,7 +15,7 @@ export const Container = styled.div<Props>`
   background: #fff;
   
 
-  .content {
+  .content2 {
     width: 100%;
     height: 55px;
     padding: 0 20px;
@@ -30,7 +30,7 @@ export const Container = styled.div<Props>`
         }
     }
 
-    .content-menu {
+    .content2-menu {
         display: flex;
         justify-content: space-around;
         align-items: center;

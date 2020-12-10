@@ -6,6 +6,10 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
 
+    @media (max-width: 600px) {
+        text-align: center;
+    }
+
     h2 {
         font-family: Roboto;
         font-weight: 400;

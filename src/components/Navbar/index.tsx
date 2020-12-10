@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
     return (
         <Container open={open}>
             {/* <Nav> */}
-            <div className="content">
+            <div className="content2">
                 <div className="logo">
                     <div className="icon">
                         <FaBalanceScale size={30} color="#0D2538" />
@@ -26,9 +26,9 @@ const Navbar: React.FC = () => {
                         Bestana Sociedade de Advogados
                     </h1>
                 </div>
-                <nav className="content-menu">
+                <nav className="content2-menu">
                     <Ul open={open}>
-                        <li className="nav-item">
+                        <li>
                             <Link
                             activeClass="active"
                             to="sobrenos"
