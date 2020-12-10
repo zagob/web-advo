@@ -92,6 +92,12 @@ export const Container = styled.section`
             font-family: Roboto;
             color: #fff;
 
+            .social {
+                div {
+                    display: flex;
+                }
+            }
+
             @media (max-width: 600px) {
                 display: flex;
                 flex-direction: column;
@@ -99,11 +105,27 @@ export const Container = styled.section`
                 address {
                     margin-top: 20px;
                     width: 300px;
+                    
+                    h3 {
+                        font-family: Roboto;
+                        font-weight: 400;
+                        font-size: 1.5em;
+                    }
                 }
 
                 ul {
                     margin-top: 20px;
                     width: 300px;
+
+                    p {
+                        margin-left: 10px;
+                    }
+
+                    h3 {
+                        font-family: Roboto;
+                        font-weight: 400;
+                        font-size: 1.5em;
+                    }
                 }
             }
 
@@ -113,8 +135,12 @@ export const Container = styled.section`
                 margin: 10px 0 5px 0;
                 transition: 0.2s;
 
-                a{
+                li{
                     margin: 0 5px 0 0;
+                }
+
+                p {
+                    margin: 0 10px 0 0;
                 }
                 
                 a:hover {

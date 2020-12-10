@@ -41,8 +41,10 @@ const Contato: React.FC = () => {
                     </address>
                     <ul className="social">
                         <h3>Rede Social</h3>
-                        <p><a href="https://api.whatsapp.com/send?phone=5514997130042"><FaWhatsapp color="green" size={25} /></a></p>
-                        <p><a href="https://www.facebook.com.br"><FaFacebook color="blue" size={25} /></a></p>
+                        <div>
+                        <p><a href="https://api.whatsapp.com/send?phone=5514997130042"><FaWhatsapp color="green" size={32} /></a></p>
+                        <p><a href="https://www.facebook.com.br"><FaFacebook color="blue" size={32} /></a></p>
+                        </div>
                     </ul>
                 </div>
             </div>
