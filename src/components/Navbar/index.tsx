@@ -28,13 +28,14 @@ const Navbar: React.FC = () => {
                 </div>
                 <nav className="content-menu">
                     <Ul open={open}>
-                        <li>
+                        <li className="nav-item">
                             <Link
                             activeClass="active"
                             to="sobrenos"
                             spy={true}
                             smooth={true}
                             offset={-70}
+                            duration={500}
                             >
                             Sobre nós
                             </Link>
@@ -43,10 +44,11 @@ const Navbar: React.FC = () => {
                         <li>
                             <Link
                             activeClass="active"
-                            to="sobrenos"
+                            to="equipe"
                             spy={true}
                             smooth={true}
                             offset={-70}
+                            duration={500}
                             >
                             Equipe
                             </Link>
@@ -55,7 +57,7 @@ const Navbar: React.FC = () => {
                         <li>
                             <Link
                             activeClass="active"
-                            to="sobrenos"
+                            to="area"
                             spy={true}
                             smooth={true}
                             offset={-70}
@@ -67,24 +69,24 @@ const Navbar: React.FC = () => {
                         <li>
                             <Link
                             activeClass="active"
-                            to="sobrenos"
+                            to="contato"
                             spy={true}
                             smooth={true}
                             offset={-70}
                             >
-                            Links úteis
+                            Contato
                             </Link>
                         </li>
 
                         <li>
                             <Link
                             activeClass="active"
-                            to="sobrenos"
+                            to="links"
                             spy={true}
                             smooth={true}
                             offset={-70}
                             >
-                            Contato
+                            Links úteis
                             </Link>
                         </li>
                     </Ul>

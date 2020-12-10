@@ -3,6 +3,10 @@ import Typist from 'react-typist';
 
 import './styles.css';
 import { ContainerBg } from './styles';
+import Sobre from '../../components/Sobre';
+import Equipe from '../../components/Equipe';
+import AreaAtuacao from '../../components/AreaAtuacao';
+import Contato from '../../components/Contato';
 
 const Home: React.FC = () => {
   const [count, setCount] = useState(1);
@@ -36,6 +40,11 @@ const Home: React.FC = () => {
             <div className="bg"></div>
           </section>
         </ContainerBg>
+
+        <Sobre id="sobrenos" />
+        <Equipe id="equipe" />
+        <AreaAtuacao id="area" />
+        {/* <Contato id="contato" /> */}
       </>
   );
 }

@@ -76,6 +76,11 @@ export const Ul = styled.ul<Props>`
     }
   }
 
+  li > .active {
+    color: orange;
+    /* z-index: 2000; */
+  }
+
   @media (max-width: 1000px) {
     flex-flow: column nowrap;
     background-color: #0D2538;
