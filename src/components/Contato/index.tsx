@@ -35,14 +35,14 @@ const Contato: React.FC = () => {
                     <address>
                         <h3>Nosso Endereço</h3>
 
-                        <p><a ><FaWhatsapp size={25} color="green" /></a>(14) 99713.0042</p>
-                        <p><a ><AiOutlineMail size={25} color="#ccc" /></a> bestana@adv.oabsp.org.br</p>
-                        <p><a ><FaLocationArrow size={25} color="#000" /></a> Rua Pereira de Rezende, 435 - Barra Bonita - SP</p>
+                        <p><li ><FaWhatsapp size={25} color="green" /></li>(14) 99713.0042</p>
+                        <p><li ><AiOutlineMail size={25} color="#ccc" /></li> bestana@adv.oabsp.org.br</p>
+                        <p><li ><FaLocationArrow size={25} color="#000" /></li> Rua Pereira de Rezende, 435 - Barra Bonita - SP</p>
                     </address>
                     <ul className="social">
                         <h3>Rede Social</h3>
-                        <p><a><FaWhatsapp color="green" size={25} /></a></p>
-                        <p><a><FaFacebook color="blue" size={25} /></a></p>
+                        <p><a href="https://api.whatsapp.com/send?phone=5514997130042"><FaWhatsapp color="green" size={25} /></a></p>
+                        <p><a href="https://www.facebook.com.br"><FaFacebook color="blue" size={25} /></a></p>
                     </ul>
                 </div>
             </div>
