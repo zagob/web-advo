@@ -15,16 +15,16 @@ const Contato: React.FC = () => {
 
                 <div>
                     <form action="">
-                        <label htmlFor="">Nome</label>
+                        <label >Nome</label>
                         <input type="text" placeholder="Nome Completo" />
 
-                        <label htmlFor="">Email</label>
+                        <label >Email</label>
                         <input type="email" placeholder="E-mail" />
 
-                        <label htmlFor="">Celular</label>
+                        <label>Celular</label>
                         <input type="number" placeholder="(DD) 0000.0000" />
 
-                        <label htmlFor="">Menssagem</label>
+                        <label >Menssagem</label>
                         <textarea placeholder="Menssagem" />
 
                         <button type="submit">Enviar</button>
@@ -35,14 +35,14 @@ const Contato: React.FC = () => {
                     <address>
                         <h3>Nosso Endereço</h3>
 
-                        <p><a href="" ><FaWhatsapp size={25} color="green" /></a>(14) 99713.0042</p>
-                        <p><a href=""><AiOutlineMail size={25} color="#ccc" /></a> bestana@adv.oabsp.org.br</p>
-                        <p><a href=""><FaLocationArrow size={25} color="#000" /></a> Rua Pereira de Rezende, 435 - Barra Bonita - SP</p>
+                        <p><a ><FaWhatsapp size={25} color="green" /></a>(14) 99713.0042</p>
+                        <p><a ><AiOutlineMail size={25} color="#ccc" /></a> bestana@adv.oabsp.org.br</p>
+                        <p><a ><FaLocationArrow size={25} color="#000" /></a> Rua Pereira de Rezende, 435 - Barra Bonita - SP</p>
                     </address>
                     <ul className="social">
                         <h3>Rede Social</h3>
-                        <p><a href=""><FaWhatsapp color="green" size={25} /></a></p>
-                        <p><a href=""><FaFacebook color="blue" size={25} /></a></p>
+                        <p><a><FaWhatsapp color="green" size={25} /></a></p>
+                        <p><a><FaFacebook color="blue" size={25} /></a></p>
                     </ul>
                 </div>
             </div>
