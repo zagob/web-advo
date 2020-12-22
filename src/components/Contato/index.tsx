@@ -46,7 +46,6 @@ const Contato: React.FC<IProps> = ({ id }) => {
                         <p><li ><AiOutlineMail size={25} color="#0D2538" /></li> bestana@adv.oabsp.org.br</p>
                         <p><li >
                             <a
-                              target="_blank"
                               href="https://www.google.com/maps/place/R.+Pereira+de+Rezende,+435,+Igara%C3%A7u+do+Tiet%C3%AA+-+SP,+17350-000/@-22.5093315,-48.5581893,17z/data=!3m1!4b1!4m5!3m4!1s0x94c745f5d571be91:0x56914982471af9c8!8m2!3d-22.5093315!4d-48.5560006"
                             ><FaLocationArrow size={25} color="#0D2538" /></a>
                            </li> Rua Pereira de Rezende, 435 - Barra Bonita - SP
