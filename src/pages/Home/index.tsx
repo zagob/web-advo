@@ -7,7 +7,7 @@ import Sobre from '../../components/Sobre';
 // import Equipe from '../../components/Equipe';
 import AreaAtuacao from '../../components/AreaAtuacao';
 import Contato from '../../components/Contato';
-import Links from '../../components/Links';
+// import Links from '../../components/Links';
 
 const Home: React.FC = () => {
   const [count, setCount] = useState(1);
