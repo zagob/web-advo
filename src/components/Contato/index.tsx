@@ -3,7 +3,6 @@ import { FaWhatsapp, FaFacebook, FaLocationArrow } from 'react-icons/fa';
 import { AiOutlineMail } from 'react-icons/ai';
 
 import { Container } from './styles';
-import './script.js';
 
 interface IProps {
     id: string;
