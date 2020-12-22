@@ -16,51 +16,30 @@ const Sobre: React.FC<IProps> = ({ id }) => {
 
               <div className="paragrafos">
                   <p>
-                    O Escritório de Advocacia, está localizado 
-                    em Igaraçu do Tietê-SP, se notabiliza pela 
-                    prestação de serviços jurídicos de alta 
-                    qualidade nas diversas áreas do direito. 
-                    A meta do escritório é estabelecer e manter 
-                    um padrão de atendimento eficaz e de resultados.
+                  O escritório Bestana Sociedade de Advogados atua no mercado 
+                  há mais de vinte anos, se especializando na resolução de problemas 
+                  jurídicos nas diversas áreas, com profissionais capacitados e 
+                  empenhados em dar atenção máxima aos nossos clientes. Atendimento 
+                  personalizado com apresentação de uma gama de opções para solucionar 
+                  os problemas mais complexos do cotidiano. Tendo como norte a Justiça, 
+                  a ética e acima de tudo a soberania das leis, estamos preparados 
+                  para atuar nos mais diversos setores e áreas de Direito 
+                  Trabalhista (acidente de trabalho e doença ocupacional), 
+                  Direito Previdenciário, Direito Civil, Família e Sucessões, 
+                  Direito Empresarial, Direito do Consumidor e Direito Penal. 
+                  O escritório oferece assessoria e consultoria jurídica 
+                  consultiva e contenciosa, estamos preparados para atender 
+                  ao processo eletrônico e realizar audiências virtuais.
                   </p>
 
                   <p>
-                    Há mais de 2O anos atuando em várias aréas 
-                    do direito o Escritório de Advocacia, 
-                    está localizado no centro da cidade de 
-                    Igaraçu do Tietê -SP na Rua Pereira de 
-                    Rezende, 435 - B, se notabiliza pela prestação 
-                    de serviços jurídicos de alta qualidade nas 
-                    diversas áreas do direito. A meta do escritório
-                    é estabelecer e manter um padrão de atendimento 
-                    eficaz e de resultados, tendo como estratégia 
-                    tratar cada cliente de forma personalizada, de 
-                    acordo com sua necessidade e demanda.
-                  </p>
-
-                  <p>
-                    É uma sociedade de advogados, fundada com 
-                    o propósito de atender a seus clientes de 
-                    forma pessoal e dedicada, focando suprir 
-                    todas as necessidades jurídicas do cliente.
-                  </p>
-
-                  <p>
-                    No intuito de prestarmos um atendimento diferenciado , 
-                    unindo a prestação de serviços de forma direta, com 
-                    profissionais qualificados, humanizando as relações, 
-                    ao que há de mais moderno em termos de tecnologia. 
-                    Nossos clientes têm atendimento pessoal e personalizado 
-                    de acordo com o seu perfil.
-                  </p>
-
-                  <p>
-                    Dispomos de toda a estrutura necessária ao 
-                    perfeito exercício da advocacia moderna, 
-                    atuando sempre com seriedade, transparência, 
-                    eficiência e credibilidade, atributos que nos 
-                    tem distinguido dos demais escritórios e 
-                    acarretando o reconhecimento de cada cliente.
+                    <strong>
+                    Prezados clientes! Informamos que, devido ao recesso 
+                    Forense estaremos em férias coletivas (com plantão via WhatsApp) 
+                    a partir do dia 18 de Dezembro de 2020 até o dia 15 de Janeiro 
+                    de 2021. Desejemos a todos um Feliz Natal e um Próspero 
+                    Ano Novo..
+                    </strong>
                   </p>
               </div>
           </div>

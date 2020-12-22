@@ -27,4 +27,9 @@ export const Container = styled.section`
         font-family: Roboto, sans-serif;
         text-align: justify;
     }
+
+    .content .paragrafos p strong {
+        font-size: 2em;
+        color: red;
+    }
 `;

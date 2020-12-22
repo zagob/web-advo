@@ -6,7 +6,8 @@ export const Container = styled.section`
     align-items: center;
     font-family: Roboto, sans-serif;
     height: 800px;
-    background-color: #0D2538;
+    /* background-color: #0D2538; */
+    background-color: #fff;
 
     @media (max-width: 600px) {
         /* width: 375px; */
@@ -23,7 +24,7 @@ export const Container = styled.section`
         h2 {
             font-size: 2.2em;
             font-weight: 600;
-            color: #fff;
+            color: #0D2538;
 
             @media (max-width: 600px) {
                 font-size: 2.2em;
@@ -37,11 +38,11 @@ export const Container = styled.section`
 
             label {
                 margin: 20px 0 0 0;
-                color: #fff;
+                color: #0D2538;
             }
 
             input {
-                border: 1px solid #fff;
+                border: 1px solid #0D2538;
                 font-family: Roboto;
                 width: 500px;
                 height: 50px;
@@ -49,8 +50,8 @@ export const Container = styled.section`
                 padding-left: 10px;
                 margin: 10px 0;
                 overflow-x: hidden;
-                background-color: #0D2538;
-                color: #fff;
+                background-color: #ccc;
+                color: #0D2538;
 
                 @media (max-width: 600px) {
                     width: 300px;
@@ -58,14 +59,14 @@ export const Container = styled.section`
             }
 
             textarea {
-                background-color: #0D2538;
-                color: #fff;
+                background-color: #ccc;
+                color: #0D2538;
                 height: 50px;
                 font-size: 1.5em;
                 padding-left: 10px;
                 margin: 10px 0;
                 height: 80px;
-                border: 1px solid #fff;
+                border: 1px solid #0D2538;
             }
 
             button {
@@ -89,7 +90,7 @@ export const Container = styled.section`
             height: 150px;
             width: 500px;
             font-family: Roboto;
-            color: #fff;
+            color: #0D2538;
 
             .social {
                 div {

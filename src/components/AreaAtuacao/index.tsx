@@ -15,18 +15,7 @@ const AreaAtuacao: React.FC<IProps> = ({ id }) => {
               </div>
               <div className="center">
                   <div className="titles">
-                    <div>
-                        <h2>Inventário e Sucessões</h2>
-                        <li>Inventario</li>
-                    </div>
-                    <div>
-                        <h2>Seguro de vida e seguros</h2>
-                        <li>Seguro de vida em grupo ou pessoal</li>
-                        <li>Análise de Apólices em geral</li>
-                        <li>Seguro de Empresa</li>
-                        <li>Seguro Bancário</li>
-                    </div>
-                    <div>
+                  <div>
                         <h2>Trabalhista</h2>
                         <li>Reclamações trabalhista</li>
                         <li>Recisórias</li>
@@ -38,6 +27,25 @@ const AreaAtuacao: React.FC<IProps> = ({ id }) => {
                         <li>Dano Moral e Material</li>
                         <li>Doença Ocupacional</li>
                     </div>
+                    <div>
+                        <h2>Direito civil</h2>
+                        <li>Cobrança judiciais e Extrajudiciais</li>
+                        <li>Contratos em geral</li>
+                        <li>Responsabilidade civil</li>
+                        <li>Consultoria jurídica em lei geral de Proteção de dados</li>
+                    </div>
+                    <div>
+                        <h2>Inventário e Sucessões</h2>
+                        <li>Inventario</li>
+                    </div>
+                    <div>
+                        <h2>Seguro de vida e seguros</h2>
+                        <li>Seguro de vida em grupo ou pessoal</li>
+                        <li>Análise de Apólices em geral</li>
+                        <li>Seguro de Empresa</li>
+                        <li>Seguro Bancário</li>
+                    </div>
+                    
                     
                     <div>
                         <h2>Aposentadoria e Revisões</h2>
@@ -51,13 +59,6 @@ const AreaAtuacao: React.FC<IProps> = ({ id }) => {
                         <li>Danos materiais e morais</li>
                         <li>Planos de Saúde</li>
                         <li>Medicamentos, Próteses, internações psiquiátrica</li>
-                    </div>
-                    <div>
-                        <h2>Direito civil</h2>
-                        <li>Cobrança judiciais e Extrajudiciais</li>
-                        <li>Contratos em geral</li>
-                        <li>Responsabilidade civil</li>
-                        <li>Consultoria jurídica em lei geral de Proteção de dados</li>
                     </div>
                  </div>
               </div>

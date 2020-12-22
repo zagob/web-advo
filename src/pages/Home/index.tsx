@@ -17,11 +17,11 @@ const Home: React.FC = () => {
   }, [count]);
   return (
       <>
-        <ContainerBg>
+        <ContainerBg id="home">
           <section className="bg-main">
             <div className="titulo">
               <h1>
-              Nossa missão é solucionar <span>os seus problemas</span>
+              Nossa missão é solucionar <span>os seus problemas jurídicos</span>
               </h1>
               <div className="element">
                 {count ? (
@@ -45,7 +45,7 @@ const Home: React.FC = () => {
         <Sobre id="sobrenos" />
         {/* <Equipe id="equipe" /> */}
         <AreaAtuacao id="area" />
-        <Links id="links" />
+        {/* <Links id="links" /> */}
         <Contato id="contato" />
       </>
   );

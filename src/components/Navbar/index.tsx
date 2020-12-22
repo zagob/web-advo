@@ -31,6 +31,18 @@ const Navbar: React.FC = () => {
                         <li>
                             <Link
                             activeClass="active"
+                            to="home"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                            >
+                            Home
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                            activeClass="active"
                             to="sobrenos"
                             spy={true}
                             smooth={true}
@@ -66,7 +78,7 @@ const Navbar: React.FC = () => {
                             </Link>
                         </li>
 
-                        <li>
+                        {/* <li>
                             <Link
                             activeClass="active"
                             to="links"
@@ -76,7 +88,7 @@ const Navbar: React.FC = () => {
                             >
                             Links úteis
                             </Link>
-                        </li>
+                        </li> */}
 
                         <li>
                             <Link
